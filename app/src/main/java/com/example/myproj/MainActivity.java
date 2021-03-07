@@ -109,14 +109,15 @@ public class MainActivity extends AppCompatActivity {
                     finalGPA.setText(String.valueOf(GPA));
                 }
                 else{
+                    finalGPA.setBackgroundColor(Color.parseColor("#81DCBC"));
                     finalGPA.setText("");
                     grade1.setText("");
                     grade2.setText("");
                     grade3.setText("");
                     grade4.setText("");
                     grade5.setText("");
-
                     calculate.setText("Calculate GPA");
+
                 }
 
             }
